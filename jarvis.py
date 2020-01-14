@@ -153,7 +153,7 @@ if __name__ == "__main__":
             speak("See you soon")
             quit()
         elif 'thanks jarvis' in query:
-            speak(f"Good bye {n}").format(n)
+            speak(f"Good bye {n}")
             speak("See you soon")
             quit()    
                       
