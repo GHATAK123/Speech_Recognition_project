@@ -1,10 +1,10 @@
-import pyttsx3
+import pyttsx3 # pip install pyttsx3
 import datetime
-import speech_recognition as sr
-import wikipedia
-import webbrowser
+import speech_recognition as sr # pip install SpeechRecognition
+import wikipedia # pip install wikipedia
+import webbrowser # pip install webbrowser
 import os
-import smtplib
+import smtplib # pip install smtplib
 
 
 engine=pyttsx3.init('sapi5')
@@ -58,7 +58,7 @@ def sendEmail(to,content):
     server=smtplib.SMTP('smtp.gmail.com',587)
     server.ehlo()
     server.starttls()
-    server.login('eea58514@gmail.com','9801069535')
+    server.login('eea58514@gmail.com','***********')
     server.sendmail('eea58514@gmail.com',to,content)
     server.close()
 
