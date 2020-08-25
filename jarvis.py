@@ -1,7 +1,7 @@
 import pyttsx3 # pip install pyttsx3
 import datetime
 import speech_recognition as sr # pip install SpeechRecognition
-import wikipedia # pip install wikipedia
+import wikipedia
 import webbrowser # pip install webbrowser
 import os
 import smtplib # pip install smtplib
